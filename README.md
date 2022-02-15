@@ -47,9 +47,6 @@ Plan
 ### Models:
 * `DealtCards`
   - validate number of cards
-  - validate number card values
-  - validate number card values
-  - `set_cards` (creats actual cards)
   - `#input_cards`
   - `#best_hand`
     - {name: "flush", `used_cards`: [], `unused_cards`: [] }
