@@ -39,4 +39,8 @@ class Card
   def rank_value
     RANK_VALUES[rank]
   end
+
+  def value
+    rank_value + suit_value
+  end
 end
