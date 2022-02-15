@@ -2,23 +2,18 @@
 
 class Hand
   attr_reader :cards
+  attr_reader :used_cards
+  attr_reader :unused_cards
+
 
   def initialize(cards)
     @cards = cards
+    @used_cards = []
+    @unused_cards = []
   end
 
   def name
     'Default: Please override'
-  end
-
-  def used_cards
-    # Override
-    []
-  end
-
-  def unused_cards
-    # Override
-    []
   end
 
   def valid?
